@@ -80,6 +80,7 @@ public class Anagrams extends JFrame {
 
     /** Creates new form Anagrams */
     public Anagrams() {
+        System.out.println("UHUM ¿Que son los anagrams? UHUM");
         wordLibrary = WordLibrary.getDefault();
         
         //Hola, soy un comentario
