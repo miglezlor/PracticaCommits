@@ -83,7 +83,6 @@ public class Anagrams extends JFrame {
         wordLibrary = WordLibrary.getDefault();
         
         //Hola, soy un comentario
-        System.out.println("Ni idea");
         initComponents();
         getRootPane().setDefaultButton(guessButton);
         scrambledWord.setText(wordLibrary.getScrambledWord(wordIdx));
